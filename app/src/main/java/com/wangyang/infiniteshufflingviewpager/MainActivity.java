@@ -19,6 +19,11 @@ import com.wangyang.infiniteshufflingviewpager.util.DensityUtil;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
+/**
+ * Android 自动无限轮播的轮播图（通过InfiniteShufflingViewPager解决冲突），
+ * 主要功能包括：通过Handler实现自动无限轮播、小圆点背景选择器、InfiniteShufflingViewPager解决冲突、
+ *              轮播图数量为1时禁止滑动、Adapter的特殊处理等。
+ */
 public class MainActivity extends AppCompatActivity {
 
     @InjectView(R.id.vp)
